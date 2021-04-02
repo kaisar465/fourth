@@ -1,0 +1,824 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*Header Section*/
+
+header {
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: rgb(151, 0, 151);
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img {
+    margin-left: 15px;
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    margin-left: 180px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 0px 15px 0px 0px;
+}
+.content{
+    padding-top: 90px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.content h2{
+    color: white;
+    font-size: 28px;
+}
+.content-btn{
+    padding: 10px 20px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    color: white;
+    background-color: darkorange;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 3px #e7530d;
+    cursor: pointer;
+}
+
+/*Service Section*/
+
+.service{
+    width: 100%;
+    float: left;
+    background-color: #19e28e;
+    padding: 25px 0px;
+}
+.service-title{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+.service-title h2{
+
+}
+.service-title span{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 20%;
+    margin: 15px auto;
+}
+.service-title p{
+    margin-bottom: 50px;
+}
+.branding-one{
+    width: 25%;
+    float: left;
+}
+.branding-one img{
+    margin-left: 90px;
+    width: 100px;
+}
+.branding-one h3{
+    text-align: center;
+    padding: 15px 0px;
+}
+.branding-one p{
+    text-align: center;
+}
+.branding-two{
+    width: 25%;
+    float: left;
+}
+.branding-two img{
+    margin-left: 100px;
+    width: 72px;
+}
+.branding-two h3{
+    text-align: center;
+    padding: 15px 0px;
+}
+.branding-two p{
+    text-align: center;
+}
+.branding-three{
+    width: 25%;
+    float: left;
+}
+.branding-three img{
+    margin-left: 70px;
+    width: 134px;
+}
+.branding-three h3{
+    text-align: center;
+    padding: 15px 0px;
+}
+.branding-three p{
+    text-align: center;
+}
+.branding-four{
+    width: 25%;
+    float: left;
+}
+.branding-four img{
+    margin-left: 100px;
+    width: 76px;
+}
+.branding-four h3{
+    text-align: center;
+    padding: 15px 0px;
+}
+.branding-four p{
+    text-align: center;
+}
+
+/*Team Section*/
+
+.team{
+    width: 100%;
+    float: left;
+    background-color: #c9c9c9;
+    padding: 25px 0px;
+}
+.team-title{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+.team-title h2{
+    
+}
+.team-title span{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 20%;
+    margin: 15px auto;
+}
+.team-title p{
+    margin-bottom: 50px;
+}
+.team-one{
+    width: 25%;
+    float: left;
+}
+.team-one img{
+    width: 179px;
+    margin-left: 55px;
+}
+.team-one h3{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.team-one h4{
+    text-align: center;
+    margin-bottom: 25px;
+    color: purple;
+}
+.team-one p{
+    text-align: center;
+}
+.team-one ul{
+    list-style: none;
+    text-align: center;
+}
+.team-one ul li{
+    display: inline-block;
+    padding: 10px 10px 10px;
+}
+.team-one ul li a{
+    
+}
+.fa.fa-facebook{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-twitter{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-linkedin{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-envelope-o{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.team-two{
+    width: 25%;
+    float: left;
+}
+.team-two img{
+    width: 179px;
+    border-radius: 100px;
+    margin-left: 47px;
+}
+.team-two h3{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.team-two h4{
+    text-align: center;
+    margin-bottom: 25px;
+    color: purple;
+}
+.team-two p{
+    text-align: center;
+}
+.team-two ul{
+    list-style: none;
+    text-align: center;
+}
+.team-two ul li{
+    display: inline-block;
+    padding: 10px 10px 10px;
+}
+.team-two ul li a{
+    
+}
+.fa.fa-facebook{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-twitter{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-linkedin{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-envelope-o{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.team-three{
+    width: 25%;
+    float: left;
+}
+.team-three img{
+    width: 172px;
+    margin-left: 55px;
+}
+.team-three h3{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.team-three h4{
+    text-align: center;
+    margin-bottom: 25px;
+    color: purple;
+}
+.team-three p{
+    text-align: center;
+}
+.team-three ul{
+    list-style: none;
+    text-align: center;
+}
+.team-three ul li{
+    display: inline-block;
+    padding: 10px 10px 10px;
+}
+.team-three ul li a{
+    
+}
+.fa.fa-facebook{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-twitter{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-linkedin{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-envelope-o{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.team-four{
+    width: 25%;
+    float: left;
+}
+.team-four img{
+    width: 179px;
+    margin-left: 55px;
+}
+.team-four h3{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.team-four h4{
+    text-align: center;
+    margin-bottom: 25px;
+    color: purple;
+}
+.team-four p{
+    text-align: center;
+}
+.team-four ul{
+    list-style: none;
+    text-align: center;
+}
+.team-four ul li{
+    display: inline-block;
+    padding: 10px 10px 10px;
+}
+.team-four ul li a{
+    
+}
+.fa.fa-facebook{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-twitter{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-linkedin{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+.fa.fa-envelope-o{
+    background-color: gray;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 11px;
+}
+
+/*Skill Section*/
+
+.skill{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    padding: 25px 0px;
+}
+.skill-title{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+.skill-title h2{
+    
+}
+.skill-title span{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 20%;
+    margin: 15px auto;
+}
+.skill-title p{
+    margin-bottom: 50px;
+}
+.skill-one{
+    width: 25%;
+    float: left;
+}
+.skill-one img{
+    margin-left: 55px;
+}
+.skill-one h4{
+    text-align: center;
+    padding: 15px 0px;
+}
+.skill-two{
+    width: 25%;
+    float: left;
+}
+.skill-two img{
+    margin-left: 55px;
+}
+.skill-two h4{
+    text-align: center;
+    padding: 15px 0px;
+}
+.skill-three{
+    width: 25%;
+    float: left;
+}
+.skill-three img{
+    margin-left: 55px;
+}
+.skill-three h4{
+    text-align: center;
+    padding: 15px 0px;
+}
+.skill-four{
+    width: 25%;
+    float: left;
+}
+.skill-four img{
+    margin-left: 55px;
+}
+.skill-four h4{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+/*Portfolio Section*/
+
+.portfolio{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: rgb(255, 245, 103);
+}
+.portfolio-title{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+.portfolio-title h2{
+    
+}
+.portfolio-title span{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 20%;
+    margin: 15px auto;
+}
+.portfolio-title p{
+    margin-bottom: 20px;
+}
+.port-btn{
+    padding: 6px 10px;
+    margin: 0px 10px 30px 0px;
+    color: white;
+    background-color: #999b1f;
+    border: none;
+}
+.portfolio-one{
+    width: 25%;
+    float: left;
+    margin-right: 188px;
+    margin-left: 100px;
+}
+.portfolio-one img{
+    width: 450px;
+}
+.portfolio-one h3{
+    text-align: center;
+    margin-left: 109px;
+    font-size: 14px;
+    padding: 15px 0px 15px 0px;
+}
+.portfolio-two{
+    width: 25%;
+    float: left;
+    margin-right: 177px;
+}
+.portfolio-two img{
+    width: 450px;
+}
+.portfolio-two h3{
+    text-align: center;
+    margin-left: 109px;
+    font-size: 14px;
+    padding: 15px 0px 15px 0px;
+}
+.portfolio-three{
+    width: 25%;
+    float: left;
+    margin-right: 188px;
+    margin-left: 100px;
+}
+.portfolio-three img{
+    width: 450px;
+}
+.portfolio-three h3{
+    text-align: center;
+    margin-left: 109px;
+    font-size: 14px;
+    padding: 15px 0px 15px 0px;
+}
+.portfolio-four{
+    width: 25%;
+    float: left;
+    margin-right: 177px;
+}
+.portfolio-four img{
+    width: 450px;
+}
+.portfolio-four h3{
+    text-align: center;
+    margin-left: 109px;
+    font-size: 14px;
+    padding: 15px 0px 15px 0px;
+}
+.port-button{
+    margin-left: 470px;
+}
+.po-btn{
+    padding: 10px 25px;
+    color: white;
+    background-color: #17daa4;
+    border: none;
+    box-shadow: 0px 3px #109d76;
+    cursor: pointer;
+}
+
+/*Testimonial Section*/
+
+.testimonial{
+    width: 100%;
+    float: left;
+    background-color: #ff0062;
+    padding: 25px 0px;
+}
+.testimonial-title{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+.testimonial-title h2{
+    color: white;
+}
+.testimonial-title span{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: block;
+    width: 20%;
+    margin: 15px auto;
+}
+.testimonial-title p{
+    margin-bottom: 50px;
+    color: white;
+}
+.testimonial-1st{
+    width: 100%;
+    float: left;
+    margin-bottom: 65px;
+}
+.testimonial-one{
+    width: 25%;
+    float: left;
+    margin-left: -70px;
+    margin-top: 65px;
+}
+.testimonial-one p{
+    margin-bottom: 20px;
+}
+.testimonial-one h2{
+    
+}
+.testimonial-one h4{
+    color: #f3f300;
+}
+.one-image{
+    width: 25%;
+    float: left;
+}
+.one-image img{
+    width: 190px;
+    border-radius: 115px;
+}
+.testimonial-two{
+    width: 25%;
+    float: left;
+    margin-top: 65px;
+}
+.testimonial-two p{
+    width: 266px;
+    margin-bottom: 20px;
+}
+.testimonial-two h2{
+    width: 174px;
+}
+.testimonial-two h4{
+    width: 117px;
+    color: #f3f300;
+}
+.two-image{
+    width: 25%;
+    float: left;
+}
+.two-image img{
+    width: 190px;
+    border-radius: 115px;
+    margin-left: 70px;
+}
+.testimonial-2nd{
+    width: 100%;
+    float: left;
+}
+.testimonial-three{
+    width: 25%;
+    float: left;
+    margin-left: -70px;
+    margin-top: 65px;
+}
+.testimonial-three p{
+    margin-bottom: 20px;
+}
+.testimonial-three h2{
+    
+}
+.testimonial-three h4{
+    color: #f3f300;
+}
+.three-image{
+    width: 25%;
+    float: left;
+}
+.three-image img{
+    width: 190px;
+    border-radius: 115px;
+}
+.testimonial-four{
+    width: 25%;
+    float: left;
+    margin-top: 65px;
+}
+.testimonial-four p{
+    margin-bottom: 20px;
+}
+.testimonial-four h2{
+    
+}
+.testimonial-four h4{
+    color: #f3f300;
+}
+.four-image{
+    width: 25%;
+    float: left;
+}
+.four-image img{
+    width: 190px;
+    border-radius: 115px;
+    margin-left: 70px;
+}
+
+/*Contact Section*/
+
+.contact{
+    width: 100%;
+    float: left;
+    background-color: #4323bb;
+    padding: 25px 0px;
+}
+.contact-title{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+.contact-title h2{
+    color: white;
+}
+.contact-title span{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: block;
+    width: 20%;
+    margin: 15px auto;
+}
+.contact-title p{
+    color: white;
+}
+.touch-one{
+    width: 100%;
+    float: left;
+}
+.form-one{
+    text-align: center;
+    padding: 30px 0px 5px 0px;
+}
+.control-one{
+    padding: 5px 102px 5px 10px;
+    background-color: #0d3252;
+    border: none;
+}
+.control-two{
+    padding: 5px 102px 5px 10px;
+    background-color: #0d3252;
+    border: none;
+}
+.touch-two{
+    width: 100%;
+    float: left;
+}
+.form-two{
+    text-align: center;
+}
+.control-three{
+    padding: 50px 390px 40px 10px;
+    background-color: #0d3252;
+    border: none;
+}
+.form-btn{
+    padding-top: 90px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.fo-btn{
+    padding: 10px 20px;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    color: white;
+    background-color: #12c2c2;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 3px #1c7c7c;
+    cursor: pointer;
+}
+
+/*Footer Section*/
+
+.ending{
+    width: 100%;
+    float: left;
+    background-color: darkblue;
+    color: white;
+    padding: 20px 0px;
+}
+.footer-one{
+    width: 16.67;
+    float: left;
+}
+.footer-one h3{
+    padding: 15px 45px;
+}
+.footer-two{
+    width: 16.67;
+    float: left;
+}
+.footer-two h3{
+    padding: 15px 45px;
+}
+.footer-three{
+    width: 16.67;
+    float: left;
+}
+.footer-three h3{
+    padding: 15px 45px;
+}
+.footer-four{
+    width: 16.67;
+    float: left;
+}
+.footer-four h3{
+    padding: 15px 45px;
+}
+.footer-five{
+    width: 16.67;
+    float: left;
+}
+.footer-five h3{
+    padding: 15px 45px;
+}
+.footer-six{
+    width: 16.67;
+    float: left;
+}
+.footer-six h3{
+    padding: 15px 45px;
+}
